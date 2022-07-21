@@ -1,8 +1,10 @@
 .box-1 {
+  /*first div*/
   text-align: center;
   color: black;
 }
 .box-2 {
+  /*second div*/
   text-align: center;
   color: firebrick;
 }
