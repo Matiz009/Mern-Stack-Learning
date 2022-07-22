@@ -14,5 +14,12 @@
 #link_1 {
   font-family: "Inconsolata", monospace;
   color: brown;
-  text-indent: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+.contact {
+  font-family: "Inconsolata", bold;
+  color: brown;
+  text-align: center;
+  text-decoration: none;
 }
