@@ -27,3 +27,13 @@
 * {
   text-decoration: none;
 }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  margin-left: 40%;
+}
+
+.img-dp {
+  width: 300px;
+}
