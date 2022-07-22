@@ -2,9 +2,17 @@
   /*first div*/
   text-align: center;
   color: black;
+  font-family: "Inconsolata", monospace;
 }
 .box-2 {
   /*second div*/
   text-align: center;
   color: firebrick;
+  font-family: "Inconsolata", monospace;
+}
+
+#link_1 {
+  font-family: "Inconsolata", monospace;
+  color: brown;
+  text-indent: 50%;
 }
