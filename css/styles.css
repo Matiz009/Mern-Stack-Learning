@@ -37,3 +37,11 @@
 .img-dp {
   width: 300px;
 }
+
+.video {
+  width: 70%;
+}
+.v2 {
+  position: relative;
+  left: 35%;
+}
