@@ -1,0 +1,22 @@
+table {
+  width: 400px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(80, 44, 44);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(125, 110, 110);
+}
+tr:nth-child(odd) {
+  background-color: rgb(63, 58, 58);
+}
