@@ -11,6 +11,11 @@ Elements
   color: red;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(56, 102, 74);
+}
+
 h1:hover {
   color: darkgreen;
   padding-left: 50px;
@@ -27,4 +32,25 @@ a:visited {
 
 p:last-child {
   color: green;
+}
+
+/*Pseudo Elements*/
+
+.first::first-line {
+  color: darkmagenta;
+  font-family: Arial;
+}
+
+.second::first-letter {
+  color: darkcyan;
+  font-family: Arial;
+}
+.second::spelling-error {
+  color: darkcyan;
+  font-family: Arial;
+}
+
+.third::before {
+  content: "This is a pseudo element";
+  content: attr(data-content);
 }
