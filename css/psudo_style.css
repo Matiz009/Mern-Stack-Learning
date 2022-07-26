@@ -1,0 +1,30 @@
+/*
+
+Two types of pseudo-elements are supported:
+Classes 
+Elements
+
+*/
+
+/*Pseudo Classes*/
+:root {
+  color: red;
+}
+
+h1:hover {
+  color: darkgreen;
+  padding-left: 50px;
+  font-family: Arial;
+}
+a:active {
+  color: blue;
+  background-color: yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+p:last-child {
+  color: green;
+}
