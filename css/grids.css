@@ -25,10 +25,10 @@
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     "title title title"
-    "header header header"
+    "header headefr header"
     "sidebar content content"
     "footer footer footer";
-}
+
 
 .grid div:nth-child(even) {
   background-color: #ab2626;
