@@ -3,9 +3,31 @@
   padding: 0;
 }
 
+.title {
+  grid-area: title;
+}
+.header {
+  grid-area: header;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.content {
+  grid-area: content;
+}
+.title {
+  footer: footer;
+}
+
 .grid {
   display: grid;
   grid-template-columns: auto 200px 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "title title title"
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
 }
 
 .grid div:nth-child(even) {
