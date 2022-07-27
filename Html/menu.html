@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap"
       rel="stylesheet"
     />
+    <script src="/javascript/api.js"></script>
     <link type="text/css" rel="stylesheet" href="/css/menu_styling.css" />
     <!--Linking the css file-->
   </head>
@@ -24,7 +25,26 @@
           <li><a href="/Html/contact.html">Contact</a></li>
         </ul>
       </nav>
-      <h3>Menu</h3>
+    </div>
+    <h3 class="header">Google API MAP</h3>
+    <div id="map">
+      <script>
+        function initMap() {
+          var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: { lat: -25.363882, lng: 131.044922 },
+          });
+          var marker = new google.maps.Marker({
+            position: { lat: -25.363882, lng: 131.044922 },
+            map: map,
+          });
+        }
+      </script>
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key='your key'&callback=initMap"
+        async
+        defer
+      ></script>
     </div>
   </body>
 </html>
