@@ -12,11 +12,12 @@
   Express
   React Js
 </p>
-
-For HTML and CSS the following playlist is recommended : https://youtube.com/playlist?list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU
-For Bootstrap the following video is recommended :  https://youtu.be/-qfEOE4vtxE
-For JS the following course is recommended : https://scrimba.com/learn/learnjavascript
-For MongoDb: will be updated.
-For Express will be updated.
-For React: will be updated.
-For Node: will be updated.
+<hr>
+<br>
+For HTML and CSS the following playlist is recommended : https://youtube.com/playlist?list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU <br>
+For Bootstrap the following video is recommended :  https://youtu.be/-qfEOE4vtxE <br>
+For JS the following course is recommended : https://scrimba.com/learn/learnjavascript <br>
+For MongoDb: will be updated. <br>
+For Express will be updated. <br>
+For React: will be updated. <br>
+For Node: will be updated.<br>
