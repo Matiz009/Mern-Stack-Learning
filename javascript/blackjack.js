@@ -38,3 +38,15 @@ intro.push(pets);
 console.log(intro);
 intro.push(cars);
 console.log(intro);
+
+//loops in js
+/*
+let start = 10;
+let end = 100;
+for (let i = start; i <= end; i = i + 10) {
+    console.log(i);
+}*/
+
+for (let i = 0; i <= intro.length; i++) {
+    console.log("values: " + intro[i]);
+}
