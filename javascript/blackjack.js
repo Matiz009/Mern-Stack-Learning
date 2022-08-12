@@ -21,3 +21,20 @@ if (sum <= 20) {
 }
 
 // 3. Log it out!
+
+//arrays
+
+let name = 'Mati ul Rehman';
+let age = '22';
+let likePizza = true;
+let hobbies = ['coding', 'reading', 'playing'];
+let pets = ['dog', 'cat', 'fish'];
+let cars = ['BMW', 'Audi', 'Mercedes'];
+let intro = [name, age, likePizza];
+console.log(intro);
+intro.push(hobbies);
+console.log(intro);
+intro.push(pets);
+console.log(intro);
+intro.push(cars);
+console.log(intro);
