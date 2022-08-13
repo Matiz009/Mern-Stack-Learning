@@ -107,6 +107,16 @@ let j = Math.floor(Math.random() * 72) + 1;
 
 btn.addEventListener("click", function() {
     for (let i = 0; i < 10; i++) {
-        pass.textContent = a + b + c + d + e + f + g + h + i + j;
-    }
+        pass.textContent = "Suggested Password: " +
+            characters[a] +
+            characters[b] +
+            characters[c] +
+            characters[d] +
+            characters[e] +
+            characters[f] +
+            characters[g] +
+            characters[h] +
+            characters[i] +
+            characters[j]
+    };
 });

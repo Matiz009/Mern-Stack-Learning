@@ -110,3 +110,8 @@
          opacity: 0;
      }
  }
+ 
+ #pass {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: large;
+ }

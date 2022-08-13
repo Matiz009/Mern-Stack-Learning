@@ -14,18 +14,16 @@
 <body>
     <section class="login-clean">
         <form method="post">
-            <h1 id="pass"><strong>Password Generator</strong></h1>
-            <div class="mt-5 mb-5"></div>
+            <h1><strong>Password Generator</strong></h1><br><br>
+
             <div class="mb-3">
-                <input class="form-control" type="text" id="pass" placeholder="Click the Generate Password Button">
+                <p id="pass"></p>
             </div>
             <div class="mb-3 ">
-                <button class="btn btn-primary re w-100 " type="button" onclick="copy()">
-                    <i class="fa fa-copy "></i>&nbsp; Copy</button>
                 <button class="btn btn-primary d-block w-100 " type="button" style="background: var(--bs-indigo); " onclick="genPass();" id="btn">Generate Password</button>
             </div>
         </form>
-        <div id="toast">Password Copied !</div>
+
     </section>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="/javascript/passwordGenerator/app.js"></script>
