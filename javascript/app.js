@@ -63,7 +63,6 @@ console.log(concatenatedMessage);
 let welcome = document.getElementById("welcome-el");
 welcomeEl.innerText = greeting + name;
 
-
 //Logical Operators
 let hasCompletedCourse = false;
 let givesCertificate = true;
