@@ -1,9 +1,105 @@
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
 }
 
 .container {
     width: 570px;
     margin: 0 auto;
+}
+
+.bold-text {
+    font-weight: 900;
+    display: block;
+    color: #99d930;
+    display: block;
+}
+
+h1 .bold-text {
+    font-size: 80px;
+}
+
+h2 .bold-text {
+    font-size: 60px;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
+.small-text {
+    font-size: 16px;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+header {
+    background-color: #252525;
+    color: #fff;
+}
+
+.about-me {
+    background-color: #fff;
+    color: #252525;
+}
+
+.articles {
+    background-color: #252525;
+    color: #fff;
+}
+
+.btn {
+    background-color: #99D930;
+    color: #252525;
+    padding: 17px 27px;
+    border: #fff
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #252525;
+    padding: 17px 27px;
+    border: #fff
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #252525;
 }
