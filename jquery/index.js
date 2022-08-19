@@ -1,3 +1,4 @@
 $(document).ready(function() {
-    alert("Jquery World");
+    let a = $("#text").html();
+    console.log(a);
 });
