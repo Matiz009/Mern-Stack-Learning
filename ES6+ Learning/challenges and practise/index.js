@@ -119,3 +119,8 @@ if (listIngredients.includes("chocolate")) {
 } else {
     console.log("we are not going to make a chocolate cake");
 }
+
+import { doSum } from "./data";
+const a = Math.floor(Math.random() * 10) + 1;
+const b = Math.floor(Math.random() * 10) + 1;
+let result = doSum(a, b);
