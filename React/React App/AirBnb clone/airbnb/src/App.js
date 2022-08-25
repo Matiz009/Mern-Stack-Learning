@@ -1,5 +1,11 @@
 import React from "react";
-
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 export default function App() {
-  return <h1>App Component</h1>; //Added header-1
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }
