@@ -2,32 +2,30 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
-import pic from "./images/katie-zaferes.png";
+import data from "./data";
+import img from "./images/katie-zaferes.png";
+
 export default function App() {
+  const cards = data.map((item) => {
+    return (
+      <Card
+        img={img}
+        rating={item.stats.rating}
+        reviewCount={item.stats.reviewCount}
+        location={item.location}
+        title={item.title}
+        price={item.price}
+      />
+    );
+  });
+
   return (
     <div>
       <Navbar />
       <Hero />
-      <Card
-        img={pic}
-        rating="5.0"
-        reviewCount={6}
-        country="USA"
-        title="Life Lessons with Katie Zaferes"
-        price={136}
-      />
+      <section className="cards-list">{cards}</section>
     </div>
   );
 }
 
-/*
-Challenge: Pass props to the Card component and display that data
 
-- img ("katie-zaferes.png")
-- rating ("5.0")
-- reviewCount (6)
-- country (Whatever you want)
-- title ("Life Lessons with Katie Zaferes")
-- price (136)
-
-*/
