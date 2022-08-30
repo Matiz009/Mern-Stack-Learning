@@ -1,18 +1,19 @@
-.container > div {
+.container>div {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    color: #ffeead;
+    color: #a6c7db;
 }
 
-.container > div > img {
+.container>div>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-html, body {
-    background-color: #ffeead;
+html,
+body {
+    background-color: #9898c3;
     margin: 10px;
 }
