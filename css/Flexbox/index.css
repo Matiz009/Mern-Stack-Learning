@@ -4,3 +4,11 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.home {
+    margin-right: auto;
+}
+
+.container>div {
+    flex: 1;
+}
