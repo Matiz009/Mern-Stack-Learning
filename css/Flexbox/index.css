@@ -1,26 +1,29 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.home {
-    margin-right: auto;
-}
-
-.container>div {
-    flex: 1;
-}
-
-.home {
-    order: 1;
 }
 
 .search {
-    order: 2;
+    flex: 1;
 }
 
-.logout {
-    order: 3;
+@media all and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container>li {
+        flex: 1 1 50%;
+    }
+    .search>input {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .container>li {
+        flex: 1 1 100%;
+    }
+    .search {
+        order: 1;
+    }
 }
