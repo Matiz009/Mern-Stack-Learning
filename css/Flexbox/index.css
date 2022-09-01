@@ -12,3 +12,15 @@
 .container>div {
     flex: 1;
 }
+
+.home {
+    order: 1;
+}
+
+.search {
+    order: 2;
+}
+
+.logout {
+    order: 3;
+}
